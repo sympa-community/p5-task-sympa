@@ -9,7 +9,8 @@ my %args = (
     ABSTRACT_FROM => 'lib/Task/Sympa.pm',
     VERSION_FROM  => 'lib/Task/Sympa.pm',
     LICENSE       => 'GPL_2',
-    PREREQ_PM     => {
+    PREREQ_PM     => { 
+
         'Archive::Zip'               => '1.05',
         'CGI'                        => '3.51',
         'DB_File'                    => '1.75',
@@ -24,18 +25,21 @@ my %args = (
         'Locale::Messages'           => '0',
         'Mail::Address'              => '1.70',
         'Mail::DKIM'                 => '0.36',
-        'MHonArc::UTF8'              => '2.6.18',
         'MIME::Base64'               => '3.03',
         'MIME::Charset'              => '1.010',
         'MIME::EncWords'             => '1.014',
-        'MIME::Lite::HTML'           => '1.23',
         'MIME::Tools'                => '5.423',
         'Template'                   => '0',
         'Term::ProgressBar'          => '2.09',
         'Text::LineFold'             => '2011.05',
         'Time::HiRes'                => '1.29',
         'URI::Escape'                => '1.35',
-        'XML::LibXML'                => '0'
+        'XML::LibXML'                => '0',
+
+        # FIXME: those 2 guys are ruining the installation.
+        # so i (eiro) put them in quarantine
+        # 'MHonArc::UTF8'              => '2.6.18',
+        # 'MIME::Lite::HTML'           => '1.23',
     }
 );
 
