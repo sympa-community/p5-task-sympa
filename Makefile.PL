@@ -36,6 +36,7 @@ my %args = (
         'URI::Escape'                => '1.35',
         'XML::LibXML'                => '0',
         'File::NFSLock'              => '0',
+        'Net::Netmask'               => '1.9022'
 
         # FIXME: those 2 guys are ruining the installation.
         # so i (eiro) put them in quarantine
