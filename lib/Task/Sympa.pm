@@ -3,7 +3,7 @@ package Task::Sympa;
 use strict;
 use warnings;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 1;
 
@@ -15,10 +15,6 @@ __END__
 
 Task::Sympa - Sympa dependencies
 
-=head1 VERSION
-
-version 1.01
-
 =head1 SYNOPSIS
 
 This is just a Task module to install dependencies. There's no code to use
@@ -28,6 +24,7 @@ or run.
 
 Installing this module will install all the modules needed for running Sympa
 mailing-list manager, ie:
+
 
 =over
 
