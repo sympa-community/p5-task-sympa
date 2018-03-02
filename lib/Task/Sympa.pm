@@ -82,9 +82,19 @@ mailing-list manager, ie:
 
 =back
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over
+
+=item
 
 Guillaume Rousse <guillomovitch@cpan.org>
+
+=item
+
+Marc Chantreux <marc.chantreux@renater.fr>
+
+=back
 
 =head1 LICENSE
 
