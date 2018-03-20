@@ -1,0 +1,9 @@
+Changes
+lib/Task/Sympa.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+scripts/get_dependency_list
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
