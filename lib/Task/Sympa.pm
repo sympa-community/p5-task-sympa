@@ -11,6 +11,12 @@ __END__
 
 =pod
 
+=head1 Deprecated
+
+a cpanfile will be provided with the next versions of the sympa project
+and this module is probably doomed to backpan in the next year. please
+follow the sympa-users mailing list.
+
 =head1 NAME
 
 Task::Sympa - Sympa dependencies
