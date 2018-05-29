@@ -1,3 +1,10 @@
+2018-05-29 Release 1.03
+2018-05-27 Release 1.02
+
+1.02 packaged an old page. 1.03 is the good one.
+it come with a README and a deprection message in
+the first lines of documentation.
+
 2014-05-07 Release 1.01
 - fix DB_File dependency
 
